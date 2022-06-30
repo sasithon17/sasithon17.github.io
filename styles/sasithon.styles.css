@@ -1,0 +1,31 @@
+html{
+    background: rgb(242, 187, 187);
+    padding:5%;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Kanit', sans-serif;  
+}
+body{
+    padding: 15px;
+    width: 85vw; 
+    /* top right bottom left */
+    background: rgb(97, 97, 243);
+    border:10px solid black;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 3px 1px rgb(157, 155, 155);
+}
+img{
+    display:block;
+    /* align-items: center; */
+    margin: 0 auto;
+    border-radius: 15px;
+    width: 600px;
+}
+a{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    justify-content: center;
+}
