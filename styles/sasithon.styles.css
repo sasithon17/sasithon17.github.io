@@ -8,13 +8,14 @@ body{
     padding: 15px;
     width: 85vw; 
     /* top right bottom left */
-    background: rgb(97, 97, 243);
+    background: rgb(169, 169, 224);
     border:10px solid black;
 }
 h1{
     text-align: center;
-    font-size: 40px;
-    text-shadow: 3px 3px 1px rgb(157, 155, 155);
+    font-size: 60px;
+    text-shadow: 3px 3px 1px rgb(255, 255, 255);
+    color:blue;
 }
 img{
     display:block;
@@ -34,4 +35,8 @@ figure{
 }
 figcaption{
     text-align: center;
+    color:rgb(74, 74, 78);
+}
+.popular{
+    border: dotted 4px red;
 }
