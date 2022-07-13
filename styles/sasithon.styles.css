@@ -29,3 +29,9 @@ a{
     text-decoration: none;
     justify-content: center;
 }
+figure{
+    margin: 10px auto;
+}
+figcaption{
+    text-align: center;
+}
