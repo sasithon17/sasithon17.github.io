@@ -1,6 +1,5 @@
 let num;
 function isPositive(){
-    console.log('sasasad');
     // while (true){
     //     num = prompt('Enter a positive number');
     //     console.log('sadad');
@@ -12,9 +11,8 @@ function isPositive(){
     // }
     do {
         num = prompt('Enter a positive number');
-        console.log('sadad');
         num = Number(num);
-    } while (!Number.isInteger(num) && num<0)
+    } while (!Number.isInteger(num) || num<0)
     showPrime(num);
 }
 function showPrime(n){
