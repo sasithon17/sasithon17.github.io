@@ -106,6 +106,9 @@ tr {
 table.school td:nth-child(1) {
   width: 150px;
 }
+li{
+  list-style-type:disc;
+}
 header {
   margin-left: 52px;
 }
