@@ -12,7 +12,7 @@ function isPositive(){
     do {
         num = prompt('Enter a positive number');
         num = Number(num);
-    } while (!Number.isInteger(num) || num<0)
+    } while (!Number.isInteger(num) || num <= 0)
     showPrime(num);
 }
 function showPrime(n){
@@ -20,6 +20,7 @@ function showPrime(n){
     for(let i = 2;i < n; ++i){
         if(isPrime(i)) {
             prime = prime +`${i},`;
+
             continue;
         }
     }
