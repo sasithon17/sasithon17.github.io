@@ -20,7 +20,6 @@ function showPrime(n){
     for(let i = 2;i < n; ++i){
         if(isPrime(i)) {
             prime = prime +`${i},`;
-
             continue;
         }
     }
